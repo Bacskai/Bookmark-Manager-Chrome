@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005ea2;
+  }
+  
+  #bookmarkList p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #bookmarkList a {
+    font-weight: bold;
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
+  /* Listaelemek formázása */
+  .bookmark-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* Formok formázása */
+  #bookmarkForm,
+  #feedbackForm {
+    margin-bottom: 20px;
+  }
+  

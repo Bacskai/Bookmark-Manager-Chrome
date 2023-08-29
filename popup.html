@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bookmark Manager Extension</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1 id="bookmarkFormTitle">Add New Bookmark</h1>
+    <div id="bookmarkForm">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="url" placeholder="URL">
+        <input type="text" id="tags" placeholder="Tags (comma-separated)">
+        <textarea id="notes" placeholder="Notes"></textarea>
+        <button id="saveBookmark">Save</button>
+        <button id="deleteBookmarks">Delete All Bookmarks</button>
+        <button id="autofillBookmark">Autofill URL</button> <!-- Hozzáadva az "Autofill URL" gomb -->
+    </div>
+    <div id="bookmarkList">
+        <!-- List of saved bookmarks -->
+    </div>
+
+    <div id="feedbackForm">
+        <h3 id="feedbackFormTitle">Send Feedback</h3>
+        <textarea id="feedbackText" placeholder="Write a message to us..."></textarea>
+        <button id="sendFeedback">Send</button>
+    </div>
+
+    <select id="languageSelector">
+        <option value="en">English</option>
+        <option value="hu">Hungarian</option>
+        <option value="de">German</option>
+        <option value="es">Spanish</option>
+        <option value="in">Indian</option>
+        <!-- Add more languages if necessary -->
+    </select>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
